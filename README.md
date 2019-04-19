@@ -12,8 +12,8 @@ Compute urban growth in the 148 largest U.S. metropolitan areas between
 5. Generate zonal statistics for the 12 rasters, using the 148 MA boundaries for the zones, and choosing SUM as the operation [ tool Zonal Statistics as Table]. This will give us the estimated number of people who live in each density category in each MA.This process generates 12 separate tables.
 6. Join all 12 tables to the MA boundary layer, and save it as a new feature class.
 7. Create several new attributes in the new feature class, putting in it the result of several computations among  existing attributes. Here are the computations:
-  * Sum up Very Low Urban, Low Urban, High Urban and Rural density values. This is just a basic check to make sure that the result is equal to the total population in each MA. 
-  * Compute the ratio between the estimated population in each density category and the total population in each MA.
-  * Compute the difference between 2000 and 2010 for every density category in every MA.
-  * Compute the percent of growth compared to 2000 for every density category in every MA.
+    * Sum up Very Low Urban, Low Urban, High Urban and Rural density values. This is just a basic check to make sure that the result is equal to the total population in each MA. 
+    * Compute the ratio between the estimated population in each density category and the total population in each MA.
+    * Compute the difference between 2000 and 2010 for every density category in every MA.
+    * Compute the percent of growth compared to 2000 for every density category in every MA.
 8. Finally, export the attribute table to a csv file. This enables post processing in a spreadsheet application.
