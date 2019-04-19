@@ -1,7 +1,8 @@
 # execfile(r'C:\Users\delph\Desktop\GIS\ArcPy_Scripts\UrbanGrowth4Categories.py')
 
 # Overview: Compute urban growth in the 148 largest U.S. metropolitan areas between
-# 2000 and 2010 for various population density ranges.
+# 2000 and 2010 for various population density ranges. For more information, 
+# see the project report: http://bit.ly/urban-growth-report
 
 import arcpy
 from arcpy.sa import *
