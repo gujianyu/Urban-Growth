@@ -2,7 +2,7 @@
 
 ## Overview
 Compute urban growth in the 148 largest U.S. metropolitan areas between
-2000 and 2010 for various population density ranges. For more information, see the project report: http://bit.ly/urban-growth-report
+2000 and 2010 for various population density ranges. The goal is to identify urban sprawl trends. Based on U.S. Census data. For more information, see the project report: http://bit.ly/urban-growth-report
 
 ## Main steps
 1. Create a new geodatabase to put in it all the outputs for one round of tests.
